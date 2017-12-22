@@ -3,7 +3,7 @@ package br.com.icaropinhoe.mvp_example.dagger.components;
 import javax.inject.Singleton;
 
 import br.com.icaropinhoe.mvp_example.dagger.modules.AppModule;
-import br.com.icaropinhoe.mvp_example.ui.main.MainActivity;
+import br.com.icaropinhoe.mvp_example.ui.activities.MainActivity;
 import dagger.Component;
 
 /**
