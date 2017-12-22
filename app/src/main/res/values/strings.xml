@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVP-Example</string>
+    <string name="error">Error fetching posts</string>
 </resources>

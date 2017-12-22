@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements MainScreen{
 
     @Override
     public void launchPostsActivity() {
-        Toast.makeText(this, "launch post activity", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, PostsActivity.class);
+        startActivity(intent);
     }
 }
